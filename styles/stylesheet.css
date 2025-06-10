@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto; 
+  padding: 25px;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  color: #262626;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 1.75em;
+}
+
+.about {
+  flex: 30%;
+  padding: 75px;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  margin: 50px;
+  padding: 50px;
+}
+article h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+}
+
+article a {
+  color: #cc0066;
+  text-decoration: none;
+}
+.badge-photo {
+  float: left;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #e6e6e6;
+}
+
+footer a {
+  color: #cc0066;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: right;
+  line-height: 1.75em;
+}
